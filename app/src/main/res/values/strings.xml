@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Music</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="artist_info">Artist Info</string>
+    <string name="find_music">Find Music</string>
+    <string name="find_music_on_the_users_device_with_the_contentresolver_class">Find music on the users device with the ContentResolver class</string>
+    <string name="store_results_in_a_custom_array_list_with_a_little_help_from_cursor_class_and_display_them_here_using_a_list_adapter">Store results in a custom array list with a little help from Cursor class and display them here using a List Adapter</string>
+    <string name="clicking_one_will_play_it_and_jump_to_nowplaying_activity_to_show_details_etc">Clicking one will play it and jump to NowPlaying activity to show details etc</string>
+    <string name="show_information_about_the_currently_playing_artist_band_maybe_done_by_running_a_google_search_using_the_retrieved_band_name">Show information about the currently playing artist/band, maybe done by running a google search using the retrieved band name</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="add_wake_lock_permission_to_manifest_so_media_can_continue_when_device_is_idle">Add \'Wake Lock\' permission to manifest so media can continue when device is idle</string>
+    <string name="add_musicservice_to_manifest_to_enable_playing_media">Add \'MusicService\' to manifest to enable playing media</string>
+    <string name="show_information_about_the_song_currently_playing_include_ability_to_pause_play_rewind_forward_etc">Show information about the song currently playing, include ability to pause/play/rewind/forward etc</string>
+    <string name="classes_libraries_needed">Classes / Libraries needed</string>
+    <string name="media_player_nmediacontroller">Media Player MediaController</string>
+</resources>

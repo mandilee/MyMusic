@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="uk.co.mandilee.mymusic.MainActivity">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_screen"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:text="@string/add_wake_lock_permission_to_manifest_so_media_can_continue_when_device_is_idle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:text="@string/add_musicservice_to_manifest_to_enable_playing_media"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/now_playing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing"/>
+
+        <Button
+            android:id="@+id/artist_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/artist_info"/>
+
+        <Button
+            android:id="@+id/find_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/find_music"/>
+    </LinearLayout>
+
+</LinearLayout>
