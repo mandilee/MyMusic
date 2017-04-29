@@ -33,4 +33,19 @@
         android:layout_marginTop="@dimen/margin_8dp"
         android:text="@string/clicking_one_will_play_it_and_jump_to_nowplaying_activity_to_show_details_etc"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/now_playing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing"/>
+    </LinearLayout>
+
 </LinearLayout>

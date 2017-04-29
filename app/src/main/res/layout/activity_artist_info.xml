@@ -20,4 +20,25 @@
         android:layout_marginTop="@dimen/margin_8dp"
         android:text="@string/show_information_about_the_currently_playing_artist_band_maybe_done_by_running_a_google_search_using_the_retrieved_band_name"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/now_playing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing"/>
+
+        <Button
+            android:id="@+id/find_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/find_music"/>
+    </LinearLayout>
 </LinearLayout>
